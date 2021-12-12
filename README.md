@@ -32,6 +32,18 @@ Wenn das funktioniert hat, kann man in seinem Internet Browser (ich habe Opera v
 
 ### Navigation
 
+Man kann zu den Menüpunkten gelangen, indem man auf sie in der Navigationsleiste klickt.
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 183636.png">
+</p>
+
+Bei kleineren Fenstergrößen ändert sich die Navigationsleiste in ein Drop-Down-Menü.
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 183740.png">
+</p>
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 183758.png">
+</p>
 
 
 
