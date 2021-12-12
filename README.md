@@ -101,12 +101,17 @@ Um sich den Text vorlesen zu lassen, wählt man in der Auswahl eine der Stimmen 
 ### News
 
 Es werden die Rss-Feeds der Tagesschau und con Heise angezeigt. Bei beiden Feeds werden die 10 aktuellsten Nachrichten angezeigt.
+
 <p align="center">
   <img src="Bilder Doku/Screenshot 2021-12-12 191801.png">
 </p>
 
+Heise verbietet leider die Nutzung der Bilder, weshalb keine Bilder angezeigt werden. Es wurden mehrere Alternativen (FAZ, Gamestar, Stern uä.) getestet aber bei dem meisten konnte aufgrund eines Access-Control-Allow-Origin Errors nicht auf den Rss-Feed zugegriffen werden.
+
 
 ## Erfahrungsbericht
+
+
 
 
 ## Flussdiagramm
