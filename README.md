@@ -98,8 +98,9 @@ Um sich den Text vorlesen zu lassen, wählt man in der Auswahl eine der Stimmen 
   <img src="Bilder Doku/Screenshot 2021-12-12 190908.png">
 </p>
 
-
 ### News
+
+Es werden die Rss-Feeds der Tagesschau und con Heise angezeigt. Bei beiden Feeds werden die 10 aktuellsten Nachrichten angezeigt.
 
 
 ## Erfahrungsbericht
