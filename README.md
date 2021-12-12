@@ -117,5 +117,5 @@ Es ist das erste Mal gewesen, dass ich selbst eine Website gebaut habe. Ich fand
 ## Flussdiagramm
 
 <p align="center">
-  <img src="Bilder Doku/_Flussdiagramm.png">
+  <img src="Bilder Doku/Flussdiagramm.png">
 </p>
