@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Web-Engineering Projekt</title>
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="/js/app.js"></script>
+        <script defer src="/js/app2.js"></script>
+        <script defer src="/js/app3.js"></script>
+        <script defer src="/js/app4.js"></script>
+        <script defer src="/js/app5.js"></script>
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check">
+                <i class="fa fa-reorder" id="btn"></i>
+                <i class="fa fa-remove" id="cancel"></i>
+            </label>
+            <img src="/images/logodhbw.svg">
+            <ul>
+                <li>
+                    <a href="#Info">Info</a>
+                </li>
+                <li>
+                    <a href="#Wetter">Wetter</a> 
+                </li>
+                <li>
+                    <a href="#Aktienverlauf">Aktienverlauf</a>
+                </li>
+                <li>
+                    <a href="#Wikipedia">Wikipedia</a>
+                </li>
+                <li>
+                    <a href="#News">News</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="image">
+            <img src="/images/image.jpg" alt="cooles Bild (free to use by Photo by Micha Frank">
+        </div>
+        <div id="main">
+            <section id="Info">
+                <h2>Info</h2>
+                <p>Das ist die Website des Web-Engineering Projekts</p>
+            </section>
+            <section id="Wetter">
+                <h2>Wetter</h2>
+                <p>Aktuelles Wetter und Vorhersage der nächsten 5 Tage</p>
+                <p>Wenn der Bildschirm zu klein ist wird nur das aktuelle Wetter angezeigt.</p>
+                <button data-popup-target="#popup">Open</button>
+                <div class="popup" id="popup">
+                    <div class="popup-header">
+                        <div class="titel">Wetter und Vorhersage</div>
+                        <button data-close-button class="close-button">&times;</button>
+                    </div>
+                    <div class="popup-body">
+                        <div class="input">
+                            <input type="text" placeholder="Enter the city" class="input_text">
+                            <input type="submit" value="Submit" class="submit">
+                        </div>
+                        <div class="container">
+                          <div class="card">
+                              <div class="content">
+                                    <h3 class="name" id="name"></h3>
+                                    <p class="date"></p>
+                                    <p class="icon"></p>
+                                    <p class="desc"></p>
+                                    <p class="high"></p>
+                                    <p class="low"></p>
+                                    <p class="rainprecipitation"></p>
+                                    <p class="snowprecipitation"></p>
+                                    <p class="wind"></p>
+                                    <p class="humidity"></p>
+                                    <p class="pressure"></p>
+                                </div>
+                          </div>
+                          <div class="card1">
+                                <div class="content1">
+                                    <p class="date1"></p>
+                                    <p class="icon1"></p>
+                                    <p class="desc1"></p>
+                                    <p class="high1"></p>
+                                    <p class="low1"></p>
+                                </div>
+                                <div class="content2">
+                                    <p class="date2"></p>
+                                    <p class="icon2"></p>
+                                    <p class="desc2"></p>
+                                    <p class="high2"></p>
+                                    <p class="low2"></p>
+                                </div>
+                                <div class="content3">
+                                    <p class="date3"></p>
+                                    <p class="icon3"></p>
+                                    <p class="desc3"></p>
+                                    <p class="high3"></p>
+                                    <p class="low3"></p>
+                                </div>
+                                <div class="content4">
+                                    <p class="date4"></p>
+                                    <p class="icon4"></p>
+                                    <p class="desc4"></p>
+                                    <p class="high4"></p>
+                                    <p class="low4"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="overlay"></div>
+            </section>
+            <section id="Aktienverlauf">
+                <h2>Aktienverlauf</h2>
+                <p>Die Discounted-Cashflow-Verfahren (DCF-Verfahren) dienen der Ermittlung des Unternehmenswertes. Dabei verdeutlicht der Begriff Discounted Cashflow bereits, dass sich der Unternehmenswert aus der Diskontierung von Cashflows ergibt. Die DCF-Verfahren gehören innerhalb der Methoden der Unternehmensbewertung zu den Gesamtbewertungsverfahren. Bei den Gesamtbewertungsverfahren wird das Unternehmen als Bewertungseinheit verstanden und der Unternehmenswert ergibt sich aus der Nutzung aller Aktiva und Passiva betreffenden finanziellen Vorteile, die den Eigentümern und damit den Eigenkapitalgebern zur Verfügung stehen. Innerhalb der Gesamtbewertungsverfahren gehören die DCF-Verfahren zu den Zukunftserfolgswertverfahren, bei denen die zukünftige Entwicklung der Unternehmenserträge beziehungsweise Cashflows der Unternehmung im Fokus steht.</p>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.2/chart.min.js" integrity="sha512-tMabqarPtykgDtdtSqCL3uLVM0gS1ZkUAVhRFu1vSEFgvB73niFQWJuvviDyBGBH22Lcau4rHB5p2K2T0Xvr6Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <h3>Apple (APPL)</h3>
+                <div class="chartbody">
+                    <div class="chart">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                </div>
+                <h3>Microsoft (MSFT)</h3>
+                <div class="chartbody1">
+                    <div class="chart1">
+                        <canvas id="myChart1"></canvas>
+                    </div>
+                </div>
+                <h3>Google (GOOG)</h3>
+                <div class="chartbody2">
+                    <div class="chart2">
+                        <canvas id="myChart2"></canvas>
+                    </div>
+                </div>
+            </section>
+            <section id="Wikipedia">
+                <h2>Wikipedia mit Text to Speech</h2>
+                <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/657px-Wikipedia-logo-v2.svg.png" alt="Wikipedia Logo" /> <br><br>
+                <input type="text" placeholder="Enter Keyword" class="input_textwiki">
+                <input type="submit" value="Submit" class="submitwiki"> <br><br>
+                Select Voice: <select id='voiceList'></select> <br><br>
+                <button id="btnSpeak">Speech!</button>
+                <p class="contentwiki"></p>
+            </section>
+            <section id="News">
+                <h2>News</h2>
+                <div class="newscontainer">
+                    <div class="newscard1">
+                        <h4 class="c1info"></h4>
+                        <div class="c1news1">
+                            <div class="c1cont1">
+                                <h5 class="c1title1"></h5>
+                                <p class="c1date1"></p>
+                                <p class="c1text1"></p>
+                                <p class="c1link1"></p>
+                            </div>
+                            <div class="c1image1">
+                                <img src="" alt="" class="c1img1">
+                            </div>
+                        </div>
+                        <div class="c1news2">
+                            <div class="c1image2">
+                                <img src="" alt="" class="c1img2">
+                            </div>
+                            <div class="c1cont2">
+                                <h5 class="c1title2"></h5>
+                                <p class="c1date2"></p>
+                                <p class="c1text2"></p>
+                                <p class="c1link2"></p>
+                            </div>
+                        </div>
+                        <div class="c1news3">
+                            <div class="c1cont3">
+                                <h5 class="c1title3"></h5>
+                                <p class="c1date3"></p>
+                                <p class="c1text3"></p>
+                                <p class="c1link3"></p>
+                            </div>
+                            <div class="c1image3">
+                                <img src="" alt="" class="c1img3">
+                            </div>
+                        </div>
+                        <div class="c1news4">
+                            <div class="c1image4">
+                                <img src="" alt="" class="c1img4">
+                            </div>
+                            <div class="c1cont4">
+                                <h5 class="c1title4"></h5>
+                                <p class="c1date4"></p>
+                                <p class="c1text4"></p>
+                                <p class="c1link4"></p>
+                            </div> 
+                        </div>
+                        <div class="c1news5">
+                            <div class="c1cont5">
+                                <h5 class="c1title5"></h5>
+                                <p class="c1date5"></p>
+                                <p class="c1text5"></p>
+                                <p class="c1link5"></p>
+                            </div>
+                            <div class="c1image5">
+                                <img src="" alt="" class="c1img5">
+                            </div>
+                        </div>
+                        <div class="c1news6">
+                            <div class="c1image6">
+                                <img src="" alt="" class="c1img6">
+                            </div>
+                            <div class="c1cont6">
+                                <h5 class="c1title6"></h5>
+                                <p class="c1date6"></p>
+                                <p class="c1text6"></p>
+                                <p class="c1link6"></p>
+                            </div> 
+                        </div>
+                        <div class="c1news7">
+                            <div class="c1cont7">
+                                <h5 class="c1title7"></h5>
+                                <p class="c1date7"></p>
+                                <p class="c1text7"></p>
+                                <p class="c1link7"></p>
+                            </div>
+                            <div class="c1image7">
+                                <img src="" alt="" class="c1img7">
+                            </div>  
+                        </div>
+                        <div class="c1news8">
+                            <div class="c1image8">
+                                <img src="" alt="" class="c1img8">
+                            </div>
+                            <div class="c1cont8">
+                                <h5 class="c1title8"></h5>
+                                <p class="c1date8"></p>
+                                <p class="c1text8"></p>
+                                <p class="c1link8"></p>
+                            </div>  
+                        </div>
+                        <div class="c1news9">
+                            <div class="c1cont9">
+                                <h5 class="c1title9"></h5>
+                                <p class="c1date9"></p>
+                                <p class="c1text9"></p>
+                                <p class="c1link9"></p>
+                            </div>
+                            <div class="c1image9">
+                                <img src="" alt="" class="c1img9">
+                            </div>
+                        </div>
+                        <div class="c1news10">
+                            <div class="c1image10">
+                                <img src="" alt="" class="c1img10">
+                            </div>
+                            <div class="c1cont10">
+                                <h5 class="c1title10"></h5>
+                                <p class="c1date10"></p>
+                                <p class="c1text10"></p>
+                                <p class="c1link10"></p>
+                            </div>   
+                        </div>
+                    </div>
+                    <div class="newscard2">
+                        <h4 class="c2info"></h4>
+                        <p class="infotxt">Heise erlaubt es nicht die Bilder zu verwenden! Bei vielen anderen Rss Feeds (FAZ uä.) kommt ein Access-Control-Allow-Origin Error.</p>
+                        <div class="c2news1">
+                            <div class="c2cont1">
+                                <h5 class="c2title1"></h5>
+                                <p class="c2date1"></p>
+                                <p class="c2text1"></p>
+                                <p class="c2link1"></p>
+                            </div>
+                            <div class="c2image1">
+                                <img src="" alt="" class="c2img1">
+                            </div>
+                        </div>
+                        <div class="c2news2">
+                            <div class="c2image2">
+                                <img src="" alt="" class="c2img2">
+                            </div>
+                            <div class="c2cont2">
+                                <h5 class="c2title2"></h5>
+                                <p class="c2date2"></p>
+                                <p class="c2text2"></p>
+                                <p class="c2link2"></p>
+                            </div>
+                        </div>
+                        <div class="c2news3">
+                            <div class="c2cont3">
+                                <h5 class="c2title3"></h5>
+                                <p class="c2date3"></p>
+                                <p class="c2text3"></p>
+                                <p class="c2link3"></p>
+                            </div>
+                            <div class="c2image3">
+                                <img src="" alt="" class="c2img3">
+                            </div> 
+                        </div>
+                        <div class="c2news4">
+                            <div class="c2image4">
+                                <img src="" alt="" class="c2img4">
+                            </div>
+                            <div class="c2cont4">
+                                <h5 class="c2title4"></h5>
+                                <p class="c2date4"></p>
+                                <p class="c2text4"></p>
+                                <p class="c2link4"></p>
+                            </div>
+                        </div>
+                        <div class="c2news5">
+                            <div class="c2cont5">
+                                <h5 class="c2title5"></h5>
+                                <p class="c2date5"></p>
+                                <p class="c2text5"></p>
+                                <p class="c2link5"></p>
+                            </div>
+                            <div class="c2image5">
+                                <img src="" alt="" class="c2img5">
+                            </div>  
+                        </div>
+                        <div class="c2news6">
+                            <div class="c2image6">
+                                <img src="" alt="" class="c2img6">
+                            </div>
+                            <div class="c2cont6">
+                                <h5 class="c2title6"></h5>
+                                <p class="c2date6"></p>
+                                <p class="c2text6"></p>
+                                <p class="c2link6"></p>
+                            </div>    
+                        </div>
+                        <div class="c2news7">
+                            <div class="c2cont7">
+                                <h5 class="c2title7"></h5>
+                                <p class="c2date7"></p>
+                                <p class="c2text7"></p>
+                                <p class="c2link7"></p>
+                            </div>
+                            <div class="c2image7">
+                                <img src="" alt="" class="c2img7">
+                            </div> 
+                        </div>
+                        <div class="c2news8">
+                            <div class="c2image8">
+                                <img src="" alt="" class="c2img8">
+                            </div>
+                            <div class="c2cont8">
+                                <h5 class="c2title8"></h5>
+                                <p class="c2date8"></p>
+                                <p class="c2text8"></p>
+                                <p class="c2link8"></p>
+                            </div> 
+                        </div>
+                        <div class="c2news9">
+                            <div class="c2cont9">
+                                <h5 class="c2title9"></h5>
+                                <p class="c2date9"></p>
+                                <p class="c2text9"></p>
+                                <p class="c2link9"></p>
+                            </div>
+                            <div class="c2image9">
+                                <img src="" alt="" class="c2img9">
+                            </div>
+                        </div>
+                        <div class="c2news10">
+                            <div class="c2image10">
+                                <img src="" alt="" class="c2img10">
+                            </div>
+                            <div class="c2cont10">
+                                <h5 class="c2title10"></h5>
+                                <p class="c2date10"></p>
+                                <p class="c2text10"></p>
+                                <p class="c2link10"></p>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div id="footer">
+            1824595 | created december 2021
+        </div>
+    </body>
+</html>
