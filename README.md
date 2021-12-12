@@ -70,7 +70,11 @@ Um die Werte als Graph darzustellen, wird chart.js verwendet.
   <img src="Bilder Doku/Screenshot 2021-12-12 185559.png">
 </p>
 
-Bei Apple funktioniert die Api einwandfrei und gibt die Werte der letzen huntert Tage an (siehe: "https://financialmodelingprep.com/api/v3/historical-daily-discounted-cash-flow/AAPL?limit=100&apikey=af8f594febb387c6a4ef3560e0e9b351"). Bei den anderen Firmen gibt die Api leider nur ein paar Werte zurück und nicht die letzten hundert. (siehe: "https://financialmodelingprep.com/api/v3/historical-daily-discounted-cash-flow/GOOG?limit=100&apikey=af8f594febb387c6a4ef3560e0e9b351"). Das habe ich leider erst gemerkt, als die Api und die Anzeige der Daten schon komplett implementiert war.
+Bei Apple funktioniert die Api einwandfrei und gibt die Werte der letzen huntert Tage an (siehe: "https://financialmodelingprep.com/api/v3/historical-daily-discounted-cash-flow/AAPL?limit=100&apikey=af8f594febb387c6a4ef3560e0e9b351").
+
+Bei den anderen Firmen gibt die Api leider nur ein paar Werte zurück und nicht die letzten hundert. (siehe: "https://financialmodelingprep.com/api/v3/historical-daily-discounted-cash-flow/GOOG?limit=100&apikey=af8f594febb387c6a4ef3560e0e9b351")
+
+Bedauerlicherweise habe ich das erst gemerkt, als die Api und die Anzeige der Daten schon komplett implementiert war.
 
 ### Wikipedia mit Text to Speech
 
