@@ -78,6 +78,10 @@ Bedauerlicherweise habe ich das erst gemerkt, als die Api und die Anzeige der Da
 
 ### Wikipedia mit Text to Speech
 
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 185559.png">
+</p>
+
 ### News
 
 
