@@ -8,7 +8,8 @@ Jannik Rasch | 1824595
 
 ## How to run
 
-Specify which file need to be used to run your program:
+Der Ordner aus der Zip datei wird auf dem Rechner abgelegt (z.B. auf dem Desktop).
+In dem Ordner öffnet man per Rechtsklich in den Ordner die Windows Systemeingabe
 
 
 ## Description
