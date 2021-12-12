@@ -3,7 +3,9 @@
 
 ## Authors
 
-Jannik Rasch | 1824595
+Matrikelnummer: 1824595
+
+Email: inf20180@lehre.dhbw-stuttgart.de
 
 
 ## How to run
