@@ -45,6 +45,15 @@ Bei kleineren Fenstergrößen ändert sich die Navigationsleiste in ein Drop-Dow
   <img src="Bilder Doku/Screenshot 2021-12-12 183758.png">
 </p>
 
+### Wetter
+
+
+
+### Aktienverlauf
+
+### Wikipedia mit Text to Speech
+
+### News
 
 
 ## Erfahrungsbericht
