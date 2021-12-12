@@ -57,7 +57,7 @@ In dem Pop-up kann man nun eine beliebige Stadt oder Land eingeben (Länder in e
   <img src="Bilder Doku/Screenshot 2021-12-12 184510.png">
 </p>
 
-Es werden das aktuelle Wetter und das Wetter der folgenden 4 Tage angezeigt. Für die Wetterdaten wird die openweathermap Api verwendet.
+Es werden das aktuelle Wetter und das Wetter der folgenden 4 Tage angezeigt. Die aktuellen Wetterdaten und die Vorhersage für die nächsten Tage werden mit Hilfe der openweathermap Api bezogen.
 <p align="center">
   <img src="Bilder Doku/Screenshot 2021-12-12 184539.png">
 </p>
