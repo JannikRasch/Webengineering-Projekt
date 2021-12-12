@@ -6,7 +6,7 @@
 Jannik Rasch | 1824595
 
 
-### How to run
+## How to run
 
 Specify which file need to be used to run your program:
 
