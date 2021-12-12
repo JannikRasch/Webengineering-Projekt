@@ -78,9 +78,26 @@ Bedauerlicherweise habe ich das erst gemerkt, als die Api und die Anzeige der Da
 
 ### Wikipedia mit Text to Speech
 
+Man kann nach einem Wikipediaartikel suchen und sich den erhaltenen Text vorlesen lassen.
+
+Dazu gibt man in dem Textfeld unter dem Wikipedia Logo ein Wort ein, nachdem man suchen will.
 <p align="center">
-  <img src="Bilder Doku/Screenshot 2021-12-12 185559.png">
+  <img src="Bilder Doku/Screenshot 2021-12-12 190755.png">
 </p>
+
+Hat man etwas eingegeben drückt man auf "submit". Wurde zu der Eingabe ein Artikel gefunden, wird in dem Feld der Text des Artikel angezeigt.
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 190817.png">
+</p>
+
+Um sich den Text vorlesen zu lassen, wählt man in der Auswahl eine der Stimmen aus und drückt auf den Knopf "Speech!"
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 190844.png">
+</p>
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 190908.png">
+</p>
+
 
 ### News
 
