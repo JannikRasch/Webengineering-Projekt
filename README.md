@@ -64,6 +64,8 @@ Es werden das aktuelle Wetter und das Wetter der folgenden 4 Tage angezeigt. Die
 
 ### Aktienverlauf
 
+Es werden die 
+
 ### Wikipedia mit Text to Speech
 
 ### News
