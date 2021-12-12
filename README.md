@@ -111,7 +111,7 @@ Heise verbietet leider die Nutzung der Bilder, weshalb keine Bilder angezeigt we
 
 ## Erfahrungsbericht
 
-Es ist das erstemal gewesen, dass ich selbst eine Website gebaut habe. Ich fand interessant und es hat an den meisten Stellen auch Spaß gemavht. Das Arbeiten mit Apis und Rss-Feeds ist teilweise nerfig, da sich fast jedes mal die Response von einer anderen unterscheidet. Gerade bei dem CData-Teil der Xml-response der Rss-Feeds war es schwer bzw. mühsam rauszufinden, wie man an die darin enthaltenen urls der Bilder kommt.
+Es ist das erste Mal gewesen, dass ich selbst eine Website gebaut habe. Ich fand interessant und es hat an den meisten Stellen auch Spaß gemavht. Das Arbeiten mit Apis und Rss-Feeds ist teilweise nerfig, da sich fast jedes mal die Response von einer anderen unterscheidet. Gerade bei dem CData-Teil der Xml-response der Rss-Feeds war es schwer bzw. mühsam rauszufinden, wie man an die darin enthaltenen urls der Bilder kommt.
 
 
 ## Flussdiagramm
