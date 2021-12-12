@@ -47,7 +47,20 @@ Bei kleineren Fenstergrößen ändert sich die Navigationsleiste in ein Drop-Dow
 
 ### Wetter
 
+Man öffnet das Wetter-Pop-up, indem man zu "Wetter" navigiert und den Knopf "open" drückt.
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 184441.png">
+</p>
 
+In dem Pop-up kann man nun eine beliebige Stadt oder Land eingeben (Länder in englischer Schreibweise! z.B. Germany). Wenn man eine Stadt oder Land eingegeben hat drückt man auf "submit".
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 184510.png">
+</p>
+
+Es werden das aktuelle Wetter und das Wetter der folgenden 4 Tage angezeigt. Für die Wetterdaten wird die openweathermap Api verwendet.
+<p align="center">
+  <img src="Bilder Doku/Screenshot 2021-12-12 184539.png">
+</p>
 
 ### Aktienverlauf
 
